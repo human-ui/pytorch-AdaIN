@@ -9,5 +9,6 @@ setup(
         'torchvision',
         'tqdm',
         'pillow',
+        'requests'
     ]
 )
