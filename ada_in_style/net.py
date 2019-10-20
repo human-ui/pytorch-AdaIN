@@ -1,7 +1,7 @@
 import torch.nn as nn
 
-from function import adaptive_instance_normalization as adain
-from function import calc_mean_std
+from ada_in_style.function import adaptive_instance_normalization as adain
+from ada_in_style.function import calc_mean_std
 
 decoder = nn.Sequential(
     nn.ReflectionPad2d((1, 1, 1, 1)),
